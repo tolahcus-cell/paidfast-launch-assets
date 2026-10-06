@@ -1,0 +1,1 @@
+# paidfast-launch-assets

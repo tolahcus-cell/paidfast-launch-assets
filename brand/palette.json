@@ -1,0 +1,25 @@
+{
+  "brand": "PaidFast",
+  "colors": {
+    "deep_green_bg": {"hex": "#04302A", "rgb": [4, 48, 42],   "use": "Base background for all images, carousels, videos"},
+    "teal_glow":             {"hex": "#14CFB5", "rgb": [20, 207, 181], "use": "Primary accent; 'Fast' in wordmark; gradient start; aurora glow"},
+    "teal_bright_video":     {"hex": "#18D6BA", "rgb": [24, 214, 186], "use": "Teal used in video renders (same role as teal_glow)"},
+    "emerald":               {"hex": "#08957F", "rgb": [8, 149, 128],  "use": "Secondary aurora glow, success states"},
+    "emerald_video":         {"hex": "#109670", "rgb": [16, 150, 112], "use": "Emerald used in video renders"},
+    "gold":                  {"hex": "#F5C949", "rgb": [245, 201, 73], "use": "Highlight / CTA pills / gradient end / small glow accent. Use sparingly"},
+    "mint":                  {"hex": "#D6ECE6", "rgb": [214, 236, 230], "use": "Body and secondary text on dark green"},
+    "mint_video":            {"hex": "#BEE8DE", "rgb": [190, 232, 222], "use": "Secondary text in videos"},
+    "white":                 {"hex": "#FFFFFF", "rgb": [255, 255, 255], "use": "Headlines; 'Paid' in wordmark"},
+    "ink":                   {"hex": "#0E1814", "rgb": [14, 24, 20],   "use": "Text on light/gold surfaces"},
+    "card":                  {"hex": "#0A423A", "rgb": [10, 66, 58],   "use": "Card fill on dark green"},
+    "card_line":             {"hex": "#22685C", "rgb": [34, 104, 92],  "use": "Card border"},
+    "charcoal":              {"hex": "#161819", "rgb": [22, 24, 25],   "use": "Phone bezel / device frames only"}
+  },
+  "gradients": {
+    "headline_keyword": ["#14CFB5", "#F5C949"]
+  },
+  "aurora_background": "Deep green base #04302A with large blurred radial glows: teal top-left (~37% alpha), emerald bottom-right (~59% alpha), small gold glow top-right (~12% alpha). Mirror the positions per slide for variety.",
+  "font": {"family": "Manrope", "file": "Manrope-Variable.ttf", "weights": {"headline": "Bold/ExtraBold", "subhead": "SemiBold", "body": "Medium"}},
+  "wordmark": "'Paid' in white + 'Fast' in teal, Manrope Bold, no space between",
+  "logo": "paidfast-logo-icon.png (1024x1024, transparent). Keep it large: >=10% of frame width on posts, >=14% on Stories/Reels openers and end cards"
+}
